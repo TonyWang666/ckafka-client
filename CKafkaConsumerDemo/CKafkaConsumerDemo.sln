@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.809.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CKafkaConsumerDemo", "CKafkaConsumerDemo\CKafkaConsumerDemo.csproj", "{165C232F-69D4-4D73-963B-F193791FBFEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Luobu.Ckafka", "..\Luobu.Ckafka\Luobu.Ckafka\Luobu.Ckafka.csproj", "{A6CA2693-3AA9-4B92-BDAD-085B11A10FED}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Luobu.CKafkaClient", "..\Luobu.CKafkaClient\Luobu.CKafkaClient\Luobu.CKafkaClient.shproj", "{A4506C6A-C7C4-49D8-BEFB-94CAD597B774}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		{165C232F-69D4-4D73-963B-F193791FBFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{165C232F-69D4-4D73-963B-F193791FBFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{165C232F-69D4-4D73-963B-F193791FBFEC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A6CA2693-3AA9-4B92-BDAD-085B11A10FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6CA2693-3AA9-4B92-BDAD-085B11A10FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6CA2693-3AA9-4B92-BDAD-085B11A10FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A6CA2693-3AA9-4B92-BDAD-085B11A10FED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

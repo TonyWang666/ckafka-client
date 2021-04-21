@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BomGkkOhSdxIcd5erd9eb1Cmaz9O21Ipg3I7EfpXMbxsECKXAiVZK8s6K5z4i7Y+W/M+AWeS1q/65ue8eah6Kw==",
+  "dgSpecHash": "W+Y4XZib/VPzfoRb7Bw/WudTQ0ZUseo4t5/THt+6OWGi/pmq815SiclLAEBlxIv41y7QpY76JZZRcin2wlNQJQ==",
   "success": true,
   "projectFilePath": "/Users/wangjiaxiang/Desktop/database/ckafka-client/CKafkaConsumerDemo/CKafkaConsumerDemo/CKafkaConsumerDemo.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/wangjiaxiang/.nuget/packages/confluent.kafka/1.6.3/confluent.kafka.1.6.3.nupkg.sha512",
+    "/Users/wangjiaxiang/.nuget/packages/librdkafka.redist/1.6.1/librdkafka.redist.1.6.1.nupkg.sha512",
+    "/Users/wangjiaxiang/.nuget/packages/system.memory/4.5.0/system.memory.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tRoEIFDV2S5elePLoUpHg8a+bwcyqsLsT7hEj8zOCSpwfIcuCBcP0jWgFug4HdRxDNzzxQeODnvCRlvBtBQtzQ==",
+  "dgSpecHash": "WpDZGCBskardzd8lcDqAHBHQdL29jGLu9OHp8i5vPklNj7jYfXca66iTH2y0Jxco+fariOPsMVa6mv9kqqTj+g==",
   "success": true,
   "projectFilePath": "/Users/wangjiaxiang/Desktop/database/ckafka-client/CKafkaProducerDemo/CKafkaProducerDemo/CKafkaProducerDemo.csproj",
   "expectedPackageFiles": [

@@ -1,26 +1,24 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using Confluent.Kafka;
+using Luobu.CkafkaClient;
+
 
 namespace CKafkaConsumerDemo
 {
+    /*
+     * Description: A program to run as consumer of Tencent Cloud CKafka
+     * This program calls CkafkaConsumer from Luobu.Ckafka
+     */
     public class Program
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            while (true)
+            {
+                CkafkaConsumer consumer = new CkafkaConsumer("tns-event-processor-consumer", "172.20.244.15:9092");
+                ConsumeResult<Ignore, string> res = consumer.GetCkafkaMessagesAsync("topic-tns-dispatcher");
+                Console.WriteLine($"Consumed message '{res.Message.Value}' at: '{res.TopicPartitionOffset}'.");
+            }
         }
-
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
     }
 }

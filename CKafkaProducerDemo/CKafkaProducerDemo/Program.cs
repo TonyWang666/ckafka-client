@@ -1,21 +1,22 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Luobu.Ckafka;
 using Confluent.Kafka;
+using Luobu.CkafkaClient;
+using System.Threading.Tasks;
 
 namespace CKafkaProducerDemo
 {
+    /*
+     * Description: A program to run as producer of Tencent Cloud CKafka
+     * This program calls CkafkaProducer from Luobu.Ckafka.
+     * More Detail at: https://github.com/confluentinc/confluent-kafka-dotnet
+     */
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
-           
+            CkafkaProducer producer = new CkafkaProducer("172.20.244.15:9092", "topic-tns-dispatcher");
+            DeliveryResult<Null, string> result = await producer.PublishMessageAsync("testData4");
+            Console.WriteLine($"Delivered '{result.Value}' to '{result.TopicPartitionOffset}'");
         }
     }
 }
