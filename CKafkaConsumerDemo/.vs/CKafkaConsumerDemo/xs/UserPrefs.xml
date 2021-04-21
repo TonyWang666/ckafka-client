@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{165C232F-69D4-4D73-963B-F193791FBFEC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CKafkaConsumerDemo/Program.cs">
+    <Files>
+      <File FileName="CKafkaConsumerDemo/Program.cs" Line="2" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CKafkaConsumerDemo" expanded="True">
+            <Node name="CKafkaConsumerDemo" expanded="True" />
+            <Node name="Luobu.CKafkaClient" expanded="True">
+              <Node name="CKafkaConsumer.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>../Luobu.Ckafka/Luobu.Ckafka/Luobu.Ckafka.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CKafkaConsumerDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/wangjiaxiang/Desktop/database/ckafka-client/CKafkaConsumerDemo/CKafkaConsumerDemo/Program.cs" relfile="CKafkaConsumerDemo/Program.cs" line="12" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
