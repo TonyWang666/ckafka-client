@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{907F977C-3C0C-47FC-BC27-88B161F15889}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Luobu.Ckafka/CkafkaConsumer.cs">
+    <Files>
+      <File FileName="Luobu.Ckafka/CkafkaProducer.cs" Line="7" Column="32" />
+      <File FileName="Luobu.Ckafka/CkafkaConsumer.cs" Line="44" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Luobu.Ckafka" expanded="True">
+            <Node name="Luobu.Ckafka" expanded="True">
+              <Node name="CkafkaConsumer.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Luobu.Ckafka PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

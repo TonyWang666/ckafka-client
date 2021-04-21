@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{165C232F-69D4-4D73-963B-F193791FBFEC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CKafkaConsumerDemo/Program.cs">
+    <Files>
+      <File FileName="CKafkaConsumerDemo/Program.cs" Line="16" Column="51" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CKafkaConsumerDemo" expanded="True">
+            <Node name="CKafkaConsumerDemo" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CKafkaConsumerDemo FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

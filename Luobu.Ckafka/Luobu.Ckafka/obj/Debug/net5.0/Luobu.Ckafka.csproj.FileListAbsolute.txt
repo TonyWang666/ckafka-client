@@ -1,0 +1,6 @@
+/Users/wangjiaxiang/Desktop/database/ckafka-client/Luobu.Ckafka/Luobu.Ckafka/obj/Debug/net5.0/Luobu.Ckafka.csprojAssemblyReference.cache
+/Users/wangjiaxiang/Desktop/database/ckafka-client/Luobu.Ckafka/Luobu.Ckafka/obj/Debug/net5.0/Luobu.Ckafka.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wangjiaxiang/Desktop/database/ckafka-client/Luobu.Ckafka/Luobu.Ckafka/obj/Debug/net5.0/Luobu.Ckafka.AssemblyInfoInputs.cache
+/Users/wangjiaxiang/Desktop/database/ckafka-client/Luobu.Ckafka/Luobu.Ckafka/obj/Debug/net5.0/Luobu.Ckafka.AssemblyInfo.cs
+/Users/wangjiaxiang/Desktop/database/ckafka-client/Luobu.Ckafka/Luobu.Ckafka/obj/Debug/net5.0/Luobu.Ckafka.csproj.CoreCompileInputs.cache
+/Users/wangjiaxiang/Desktop/database/ckafka-client/Luobu.Ckafka/Luobu.Ckafka/obj/Debug/net5.0/Luobu.Ckafka.MvcApplicationPartsAssemblyInfo.cache
