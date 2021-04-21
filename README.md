@@ -4,7 +4,7 @@ Used by the other projects to access to CKafka of Tencent Cloud
 Used repo confluentinc/confluent-kafka-dotnet as nuget package.
 Link of confluent-kafka-dotnet: https://github.com/confluentinc/confluent-kafka-dotnet
 
-### Hwo to use Luobu.CKafkaClient
+### How to use Luobu.CKafkaClient
 1. Add "Luobu.CKafkaClient" as existing projet into your project
 2. Add reference of "Luobu.CKafkaClient"
 3. After type "using Luobu.CkafkaClient;" on any file, you are free to use it.
