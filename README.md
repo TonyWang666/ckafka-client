@@ -1,4 +1,4 @@
-# Luobu.CKafkaClient
+# ckafka-client
 Shared Library
 Used by the other projects to access to CKafka of Tencent Cloud
 Used repo confluentinc/confluent-kafka-dotnet as nuget package.
