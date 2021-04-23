@@ -103,6 +103,19 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "Luobu.CKafka/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Confluent.Kafka": "1.6.3"
+        },
+        "compile": {
+          "bin/placeholder/Luobu.CKafka.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Luobu.CKafka.dll": {}
+        }
       }
     }
   },
@@ -207,11 +220,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Luobu.CKafka/1.0.0": {
+      "type": "project",
+      "path": "../../../web/Assemblies/Luobu.CKafka/Luobu.CKafka/Luobu.CKafka.csproj",
+      "msbuildProject": "../../../web/Assemblies/Luobu.CKafka/Luobu.CKafka/Luobu.CKafka.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Confluent.Kafka >= 1.6.3"
+      "Confluent.Kafka >= 1.6.3",
+      "Luobu.CKafka >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -238,7 +257,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/wangjiaxiang/Desktop/database/web/Assemblies/Luobu.CKafka/Luobu.CKafka/Luobu.CKafka.csproj": {
+              "projectPath": "/Users/wangjiaxiang/Desktop/database/web/Assemblies/Luobu.CKafka/Luobu.CKafka/Luobu.CKafka.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,7 +1,7 @@
 using System;
+using System.Threading;
 using Confluent.Kafka;
-using Luobu.CkafkaClient;
-
+using Luobu.CKafka;
 
 namespace CKafkaConsumerDemo
 {
@@ -13,11 +13,33 @@ namespace CKafkaConsumerDemo
     {
         public static void Main(string[] args)
         {
-            while (true)
+            CKafkaConsumer consumer = new CKafkaConsumer("172.20.244.15:9092", "tns-event-processor-consumer", "topic-tns-dispatcher");
+            try
             {
-                CkafkaConsumer consumer = new CkafkaConsumer("tns-event-processor-consumer", "172.20.244.15:9092");
-                ConsumeResult<Ignore, string> res = consumer.GetCkafkaMessagesAsync("topic-tns-dispatcher");
-                Console.WriteLine($"Consumed message '{res.Message.Value}' at: '{res.TopicPartitionOffset}'.");
+                int num = 1;
+                while (true)
+                {
+                    CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+                    ConsumeResult<Ignore, string> consumeResult = consumer.GetCkafkaMessagesAsync(cancellationTokenSource.Token);
+                    if (consumeResult == null || consumeResult.IsPartitionEOF)
+                    {
+                        Console.WriteLine("Received NULL");
+                        continue;
+                    }
+                    Console.WriteLine($"Consumed message '{consumeResult.Message.Value}' at: " +
+                        $"'{consumeResult.TopicPartitionOffset}'.");
+                    Console.WriteLine($"Consumed message {num++} time");
+                    consumer.Commit();
+                }
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine($"Exception in main is: {ex}");
+            }
+            finally
+            {
+                Console.WriteLine("Closing main...");
+                consumer.Close();
             }
         }
     }

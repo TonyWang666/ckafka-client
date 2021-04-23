@@ -1,20 +1,21 @@
 ﻿<Properties StartupConfiguration="{1D2B3D3E-1C8F-4424-99B3-17C09225F3F8}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="CKafkaProducerDemo/Program.cs">
     <Files>
-      <File FileName="CKafkaProducerDemo/Program.cs" Line="3" Column="23" />
-      <File FileName="CKafkaProducerDemo/Properties/launchSettings.json" Line="4" Column="16" />
-      <File FileName="CKafkaProducerDemo/CKafkaProducerDemo.csproj" Line="1" Column="1" />
+      <File FileName="CKafkaProducerDemo/Program.cs" Line="25" Column="98" />
+      <File FileName="../../web/Assemblies/Luobu.CKafka/Luobu.CKafka/CKafkaConsumer.cs" />
+      <File FileName="../../web/Assemblies/Luobu.CKafka/Luobu.CKafka/CKafkaProducer.cs" />
+      <File FileName="../../web/Assemblies/Luobu.CKafka/Luobu.CKafka/ICKafkaConsumer.cs" />
+      <File FileName="../../web/Assemblies/Luobu.CKafka/Luobu.CKafka/ICKafkaProducer.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CKafkaProducerDemo" expanded="True">
             <Node name="CKafkaProducerDemo" expanded="True">
-              <Node name="Dependencies" expanded="True" selected="True">
-                <Node name="FrameworkReferences" expanded="True" />
-              </Node>
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
-            <Node name="Luobu.CKafkaClient" expanded="True" />
+            <Node name="Luobu.CKafka" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -24,9 +25,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/wangjiaxiang/Desktop/database/ckafka-client/CKafkaProducerDemo/CKafkaProducerDemo/Program.cs" relfile="CKafkaProducerDemo/Program.cs" line="12" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
