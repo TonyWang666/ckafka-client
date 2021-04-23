@@ -7,5 +7,9 @@
   <ItemGroup>
     <PackageReference Include="Confluent.Kafka" Version="1.6.3" />
   </ItemGroup>
-  <Import Project="..\..\Luobu.CKafkaClient\Luobu.CKafkaClient\Luobu.CKafkaClient.projitems" Label="Shared" Condition="Exists('..\..\Luobu.CKafkaClient\Luobu.CKafkaClient\Luobu.CKafkaClient.projitems')" />
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\web\Assemblies\Luobu.CKafka\Luobu.CKafka\Luobu.CKafka.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

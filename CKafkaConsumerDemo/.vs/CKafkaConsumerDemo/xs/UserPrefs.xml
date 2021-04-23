@@ -1,17 +1,31 @@
 ﻿<Properties StartupConfiguration="{165C232F-69D4-4D73-963B-F193791FBFEC}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="CKafkaConsumerDemo/Program.cs">
     <Files>
-      <File FileName="CKafkaConsumerDemo/Program.cs" Line="2" Column="7" />
+      <File FileName="CKafkaConsumerDemo/Program.cs" Line="1" Column="1" />
+      <File FileName="../../web/Assemblies/Luobu.CKafka/Luobu.CKafka/CKafkaConsumer.cs" Line="125" Column="31" />
+      <File FileName="../../web/Assemblies/Luobu.CKafka/Luobu.CKafka/CKafkaProducer.cs" />
+      <File FileName="../../web/Assemblies/Luobu.CKafka/Luobu.CKafka/ICKafkaConsumer.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CKafkaConsumerDemo" expanded="True">
-            <Node name="CKafkaConsumerDemo" expanded="True" />
-            <Node name="Luobu.CKafkaClient" expanded="True">
-              <Node name="CKafkaConsumer.cs" selected="True" />
+            <Node name="CKafkaConsumerDemo" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="Luobu.CKafka" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>res</Value>
+          <Value>consumeResult</Value>
         </State>
       </Pad>
     </Pads>
@@ -23,9 +37,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.CKafkaConsumerDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/wangjiaxiang/Desktop/database/ckafka-client/CKafkaConsumerDemo/CKafkaConsumerDemo/Program.cs" relfile="CKafkaConsumerDemo/Program.cs" line="12" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

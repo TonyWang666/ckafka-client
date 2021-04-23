@@ -34,6 +34,7 @@
       "CKafkaConsumerDemo/1.0.0": {
         "dependencies": {
           "Confluent.Kafka": "1.6.3",
+          "Luobu.CKafka": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -435,6 +436,17 @@
         }
       },
       "System.Memory/4.5.0": {},
+      "Luobu.CKafka/1.0.0": {
+        "dependencies": {
+          "Confluent.Kafka": "1.6.3"
+        },
+        "runtime": {
+          "Luobu.CKafka.dll": {}
+        },
+        "compile": {
+          "Luobu.CKafka.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -2161,6 +2173,11 @@
       "sha512": "sha512-m0psCSpUxTGfvwyO0i03ajXVhgBqyXlibXz0Mo1dtKGjaHrXFLnuQ8rNBTmWRqbfRjr4eC6Wah4X5FfuFDu5og==",
       "path": "system.memory/4.5.0",
       "hashPath": "system.memory.4.5.0.nupkg.sha512"
+    },
+    "Luobu.CKafka/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
       "type": "referenceassembly",

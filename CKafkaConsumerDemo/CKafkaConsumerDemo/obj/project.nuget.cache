@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "W+Y4XZib/VPzfoRb7Bw/WudTQ0ZUseo4t5/THt+6OWGi/pmq815SiclLAEBlxIv41y7QpY76JZZRcin2wlNQJQ==",
+  "dgSpecHash": "g8q40VyY+HPjlee1qS5qjAe/isy0SNzd81splQ8CaFqsdELeXwurGbZIZ/ZkH4BCfcD7z/K3uhxLSGFYXFROHg==",
   "success": true,
   "projectFilePath": "/Users/wangjiaxiang/Desktop/database/ckafka-client/CKafkaConsumerDemo/CKafkaConsumerDemo/CKafkaConsumerDemo.csproj",
   "expectedPackageFiles": [

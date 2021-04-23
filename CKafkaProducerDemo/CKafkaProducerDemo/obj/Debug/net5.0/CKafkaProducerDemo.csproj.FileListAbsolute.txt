@@ -40,3 +40,5 @@
 /Users/wangjiaxiang/Desktop/database/ckafka-client/CKafkaProducerDemo/CKafkaProducerDemo/bin/Debug/net5.0/runtimes/win-x86/native/msvcr120.dll
 /Users/wangjiaxiang/Desktop/database/ckafka-client/CKafkaProducerDemo/CKafkaProducerDemo/bin/Debug/net5.0/runtimes/win-x86/native/zlib.dll
 /Users/wangjiaxiang/Desktop/database/ckafka-client/CKafkaProducerDemo/CKafkaProducerDemo/obj/Debug/net5.0/CKafkaProducerDemo.csproj.CopyComplete
+/Users/wangjiaxiang/Desktop/database/ckafka-client/CKafkaProducerDemo/CKafkaProducerDemo/bin/Debug/net5.0/Luobu.CKafka.dll
+/Users/wangjiaxiang/Desktop/database/ckafka-client/CKafkaProducerDemo/CKafkaProducerDemo/bin/Debug/net5.0/Luobu.CKafka.pdb
